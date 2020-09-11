@@ -8,12 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+open class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    lazy var controller: UIViewController = {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        return storyboard.instantiateViewController(identifier: "ViewController")
+    }()
+
+    open override func viewDidLoad() {
         super.viewDidLoad()
     }
 
+    open func showMessage() {
+        print("Succesfully accessible")
+    }
 
 }
 
