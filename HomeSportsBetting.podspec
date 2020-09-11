@@ -10,5 +10,9 @@ s.homepage         = 'https://github.com/Chandan0901/HomeSportsBetting'
 s.author           = { 'Chandrasekhar' => 'jakkidi.reddy@ivycomptech.com' }
 s.source           = { :git => 'https://github.com/Chandan0901/HomeSportsBetting.git', :tag => 'master' }
 s.ios.deployment_target = '13.0'
+s.resources = ['HomeSportsBetting/**/*.storyboard']
+s.resource_bundles = {
+  'HomeSportsBetting' => ['HomeSportsBetting/**/*.storyboard']
+}
 s.source_files = 'HomeSportsBetting/**/*.{h,m,swift}'
 end
