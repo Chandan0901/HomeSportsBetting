@@ -10,7 +10,7 @@ import UIKit
 
 open class ViewController: UIViewController {
 
-    lazy var controller: UIViewController = {
+    open lazy var controller: UIViewController = {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         return storyboard.instantiateViewController(identifier: "ViewController")
     }()
