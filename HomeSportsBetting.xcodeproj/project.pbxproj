@@ -3,12 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		435E53C51B99191EE53D105F /* Pods_HomeSportsBetting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485E593E17457572516FE9C6 /* Pods_HomeSportsBetting.framework */; };
 		C5E36F60250B85AA00E453C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E36F5F250B85AA00E453C9 /* AppDelegate.swift */; };
-		C5E36F62250B85AA00E453C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E36F61250B85AA00E453C9 /* SceneDelegate.swift */; };
 		C5E36F64250B85AA00E453C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E36F63250B85AA00E453C9 /* ViewController.swift */; };
 		C5E36F67250B85AA00E453C9 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5E36F65250B85AA00E453C9 /* Home.storyboard */; };
 		C5E36F69250B85AC00E453C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5E36F68250B85AC00E453C9 /* Assets.xcassets */; };
@@ -16,14 +16,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		123894E4B64EAD7D1D81D028 /* Pods-HomeSportsBetting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeSportsBetting.release.xcconfig"; path = "Target Support Files/Pods-HomeSportsBetting/Pods-HomeSportsBetting.release.xcconfig"; sourceTree = "<group>"; };
+		485E593E17457572516FE9C6 /* Pods_HomeSportsBetting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeSportsBetting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E36F5C250B85AA00E453C9 /* HomeSportsBetting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeSportsBetting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E36F5F250B85AA00E453C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C5E36F61250B85AA00E453C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C5E36F63250B85AA00E453C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C5E36F66250B85AA00E453C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		C5E36F68250B85AC00E453C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5E36F6B250B85AC00E453C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5E36F6D250B85AC00E453C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F610EC925FAE1B5BA73F15D3 /* Pods-HomeSportsBetting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeSportsBetting.debug.xcconfig"; path = "Target Support Files/Pods-HomeSportsBetting/Pods-HomeSportsBetting.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				435E53C51B99191EE53D105F /* Pods_HomeSportsBetting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		364A412250B741AA541E9AA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				485E593E17457572516FE9C6 /* Pods_HomeSportsBetting.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C5E36F53250B85AA00E453C9 = {
 			isa = PBXGroup;
 			children = (
 				C5E36F5E250B85AA00E453C9 /* HomeSportsBetting */,
 				C5E36F5D250B85AA00E453C9 /* Products */,
+				CA89C3418116ABFC773D867A /* Pods */,
+				364A412250B741AA541E9AA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,7 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				C5E36F5F250B85AA00E453C9 /* AppDelegate.swift */,
-				C5E36F61250B85AA00E453C9 /* SceneDelegate.swift */,
 				C5E36F63250B85AA00E453C9 /* ViewController.swift */,
 				C5E36F65250B85AA00E453C9 /* Home.storyboard */,
 				C5E36F68250B85AC00E453C9 /* Assets.xcassets */,
@@ -67,6 +79,15 @@
 			path = HomeSportsBetting;
 			sourceTree = "<group>";
 		};
+		CA89C3418116ABFC773D867A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F610EC925FAE1B5BA73F15D3 /* Pods-HomeSportsBetting.debug.xcconfig */,
+				123894E4B64EAD7D1D81D028 /* Pods-HomeSportsBetting.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5E36F70250B85AC00E453C9 /* Build configuration list for PBXNativeTarget "HomeSportsBetting" */;
 			buildPhases = (
+				C2DE215B392289CFCBB1DCCD /* [CP] Check Pods Manifest.lock */,
 				C5E36F58250B85AA00E453C9 /* Sources */,
 				C5E36F59250B85AA00E453C9 /* Frameworks */,
 				C5E36F5A250B85AA00E453C9 /* Resources */,
+				1F1B3DEFB887EE347B8AFA14 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +156,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F1B3DEFB887EE347B8AFA14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeSportsBetting/Pods-HomeSportsBetting-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeSportsBetting/Pods-HomeSportsBetting-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HomeSportsBetting/Pods-HomeSportsBetting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2DE215B392289CFCBB1DCCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeSportsBetting-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C5E36F58250B85AA00E453C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,7 +205,6 @@
 			files = (
 				C5E36F64250B85AA00E453C9 /* ViewController.swift in Sources */,
 				C5E36F60250B85AA00E453C9 /* AppDelegate.swift in Sources */,
-				C5E36F62250B85AA00E453C9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +346,7 @@
 		};
 		C5E36F71250B85AC00E453C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F610EC925FAE1B5BA73F15D3 /* Pods-HomeSportsBetting.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -302,6 +367,7 @@
 		};
 		C5E36F72250B85AC00E453C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 123894E4B64EAD7D1D81D028 /* Pods-HomeSportsBetting.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;

@@ -9,7 +9,9 @@ DESC
 s.homepage         = 'https://github.com/Chandan0901/HomeSportsBetting'
 s.author           = { 'Chandrasekhar' => 'jakkidi.reddy@ivycomptech.com' }
 s.source           = { :git => 'https://github.com/Chandan0901/HomeSportsBetting.git', :tag => 'master' }
-s.ios.deployment_target = '13.0'
+s.ios.deployment_target = '11.0'
+s.swift_version = '4.0'
 s.source_files = 'HomeSportsBetting/**/*.{h,m,swift}'
 s.resources = ['HomeSportsBetting/**/*.{storyboard,xib,xcassets}']
+s.dependency 'Alamofire'
 end

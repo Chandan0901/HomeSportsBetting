@@ -9,19 +9,9 @@
 import UIKit
 
 open class ViewController: UIViewController {
-
-    open lazy var controller: UIViewController = {
-        let storyboard = UIStoryboard(name: "Home", bundle: nil)
-        return storyboard.instantiateViewController(identifier: "ViewController")
-    }()
-
     open override func viewDidLoad() {
         super.viewDidLoad()
-    }
-
-    open func showMessage() {
         print("Succesfully accessible")
     }
-
 }
 
